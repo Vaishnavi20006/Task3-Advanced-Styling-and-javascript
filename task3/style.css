@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: lightblue;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    background-color: lightpink;
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  body {
+    background-color: lightgreen;
+    font-size: 18px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+  body {
+    background-color: lightblue;
+    font-size: 22px;
+  }
+}
